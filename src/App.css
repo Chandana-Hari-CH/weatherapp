@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  overflow: hidden; /* Prevent scrollbars */
+}
+
+.background {
+  background-image: url('https://w0.peakpx.com/wallpaper/223/329/HD-wallpaper-field-sunset-field-beauty-nature-sunset-clouds-weather-landscape.jpg');
+  position: fixed; /* Cover the entire viewport */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(3px); 
+  z-index: -1; 
+}
+
+.container-fluid {
+  position: relative; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1; 
+  padding: 20px; 
+}
+
+h1 {
+  color: white;
+}
+
+.alert {
+  margin-top: 20px;
+}
+
+.weather-icon {
+  width: 100px; 
+  height: 100px; 
+}
